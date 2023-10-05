@@ -268,6 +268,6 @@ jq can use math function from your libc. For example:
 
 ```sh
 echo '{ "a": 1234.56 }' | jq '.a | round'     # gives 1235
-echo '{ "a": 1234.56 }' | jq '.a | floor'     # gives 1235
-echo '{ "a": 1234.56 }' | jq '.a | ceil'      # gives 1234
+echo '{ "a": 1234.56 }' | jq '.a | ceil'      # gives 1235
+echo '{ "a": 1234.56 }' | jq '.a | floor'     # gives 1234
 ```
